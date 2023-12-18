@@ -1,7 +1,7 @@
 name : Github Actions Practice
 on: push
 jobs:
- Explore-Github-Actions
+ Explore-Github-Actions:
   runs-on: ubuntu-latest
   steps:
    -name: Print triggering job
