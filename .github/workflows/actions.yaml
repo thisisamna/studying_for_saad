@@ -1,7 +1,7 @@
 name: Amna trying 
 on: [push, pull_request] 
 jobs:
- Job attempt:
+ Job-attempt:
   runs-on: ubuntu-latest
   steps:
    - run: echo "Hello ${{ runner.os }}
