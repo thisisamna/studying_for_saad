@@ -1,13 +1,9 @@
-name : Github Actions Practice
-on: push
+name: Amna trying 
+on: push, pull-request 
 jobs:
- Explore-Github-Actions:
-  runs-on: ubuntu-latest
+ Job attempt:
+  runs on: ubuntu-latest
   steps:
-   - name: Print triggering job
-     run: echo "This job was triggered by ${{ github.event_name }} "
-   - name: Print runner OS
-     run: echo "Job is running on a ${{ runner.os }} server"
-
-
- 
+   - run: echo "Hello ${{ runner.os }}
+   - name: Hi
+     run: echo "hi"
