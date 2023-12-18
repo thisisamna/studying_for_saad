@@ -1,5 +1,5 @@
 name: Amna trying 
-on: push, pull-request 
+on: [push, pull-request] 
 jobs:
  Job attempt:
   runs on: ubuntu-latest
